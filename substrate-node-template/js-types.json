@@ -1,0 +1,10 @@
+{
+  "Library": {
+    "name": "Text"
+  },
+  "Book": {
+    "isbn": "Text",
+    "name": "Text"
+  }
+}
+

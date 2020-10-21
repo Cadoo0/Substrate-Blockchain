@@ -1,0 +1,13 @@
+{
+  "Library": {
+    "id": "u8",
+    "name": "Vec<u8>",
+    "books": "Vec<Book>"
+  },
+  "Book": {
+    "id": "u8",
+    "isbn": "Vec<u8>",
+    "name": "Vec<u8>",
+    "owner": "Option<Library>"
+  }
+}
