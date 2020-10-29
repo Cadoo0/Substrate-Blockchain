@@ -1,13 +1,22 @@
 {
-  "Library": {
-    "id": "u8",
-    "name": "Vec<u8>",
-    "books": "Vec<Book>"
-  },
-  "Book": {
-    "id": "u8",
-    "isbn": "Vec<u8>",
-    "name": "Vec<u8>",
-    "owner": "Option<Library>"
+  "runtime_id": 2,
+  "types": {
+    "Library": {
+      "type": "struct",
+      "type_mapping": [
+        ["id", "u8"],
+        ["name", "Vec<u8>"],
+        ["books", "Vec<Book>"]
+      ]
+    },
+    "Book": {
+      "type": "struct",
+      "type_mapping": [
+        ["id", "u8"],
+        ["isbn", "Vec<u8>"],
+        ["name", "Vec<u8>"],
+        ["owner", "Option<Library>"]
+      ]
+    }
   }
 }

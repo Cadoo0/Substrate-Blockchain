@@ -26,14 +26,23 @@ pub struct Book {
     pub owner: Option<Library>
 }
 
+#[derive(Encode, Decode, Default, Clone, PartialEq, Eq)]
+pub struct Transaction {
+    pub from: u8,
+    pub to: u8,
+    pub book: u8
+}
+
 pub trait Trait: frame_system::Trait {
     type Event: From<Event<Self>> + Into<<Self as frame_system::Trait>::Event>;
 }
 
 decl_storage! {
 	trait Store for Module<T: Trait> as TemplateModule {
+        LastTransactionId: u8 = 1;
 		Libraries get(fn library): map hasher(blake2_128_concat) u8 => Option<Library>;
 		Books get(fn book): map hasher(blake2_128_concat) u8 => Option<Book>;
+		Transactions get(fn transaction): map hasher(blake2_128_concat) u8 => Option<Transaction>;
 	}
 }
 
@@ -41,15 +50,9 @@ decl_event!(
 	pub enum Event<T> where AccountId = <T as frame_system::Trait>::AccountId {
 		LibraryAdded(AccountId, u8),
 		BookAdded(AccountId, u8),
+		TransactionAdded(AccountId, u8),
 	}
 );
-
-decl_error! {
-	pub enum Error for Module<T: Trait> {
-		NoneValue,
-		StorageOverflow,
-	}
-}
 
 decl_module! {
 	pub struct Module<T: Trait> for enum Call where origin: T::Origin {
@@ -97,40 +100,56 @@ decl_module! {
 		}
 
 		#[weight = 10_000 + T::DbWeight::get().writes(1)]
-		pub fn claim_book(origin, library_id: u8, book_id: u8) -> dispatch::DispatchResult {
+		pub fn add_transaction(origin, from: u8, to: u8, book_id: u8) -> dispatch::DispatchResult {
             let sender = ensure_signed(origin)?;
 
-            ensure!(<Libraries>::contains_key(&library_id), "Deze bibliotheek bestaat niet");
+            let transaction = Transaction {
+                from,
+                to,
+                book: book_id
+            };
+
+            let last_id = <LastTransactionId>::get();
+
+            <Transactions>::insert(last_id, transaction);
+
+            Self::deposit_event(RawEvent::TransactionAdded(sender, last_id));
+
+            LastTransactionId::put(last_id + 1);
+
+			Ok(())
+		}
+
+		#[weight = 10_000 + T::DbWeight::get().writes(1)]
+		pub fn claim_book(origin, library_id: u8, book_id: u8) -> dispatch::DispatchResult {
+            let _sender = ensure_signed(origin)?;
+
             ensure!(<Books>::contains_key(&book_id), "Deze boek bestaat niet");
+            ensure!(<Libraries>::contains_key(&library_id), "Deze bibliotheek bestaat niet");
+            ensure!(<Books>::get(book_id).unwrap().owner == None, "Deze boek heeft al een eigenaar");
 
-            let book = <Books>::get(book_id).unwrap();
-
-            ensure!(book.owner == None, "Deze boek heeft al een eigenaar");
-
-            // book.owner = Some(library.clone());
-            // library.books.push(book.clone());
-
-            <Libraries>::mutate(library_id.clone(), |library| {
-                library.clone().unwrap().books.push(book.clone());
-            });
-
-            <Books>::mutate(book_id.clone(), |book| {
-                let library = <Libraries>::get(library_id).unwrap();
-                book.clone().unwrap().owner = Some(library.clone());
-            });
-
-            // <Libraries>::remove(library_id.clone());
-            // <Books>::remove(book_id.clone());
+            // <Books>::mutate(book_id.clone(), |editable_book| {
+            //     let library = <Libraries>::get(library_id).unwrap();
             //
-            // <Libraries>::insert(library_id, library);
-            // <Books>::insert(book_id, book);
+            //     editable_book.unwrap().owner = Some(library.clone());
+            // });
 
-            // <Libraries>::mutate(library_id, library);
-            // <Books>::mutate(book_id, book);
+            // <Libraries>::mutate(library_id.clone(), |editable_library| {
+            //     let book = <Books>::get(book_id).unwrap();
+            //
+            //     editable_library.unwrap().books.push(book.clone());
+            // });
 
             // Self::deposit_event(RawEvent::BookAdded(sender, id));
 
 			Ok(())
 		}
+	}
+}
+
+decl_error! {
+	pub enum Error for Module<T: Trait> {
+		NoneValue,
+		StorageOverflow,
 	}
 }

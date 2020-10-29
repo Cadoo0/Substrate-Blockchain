@@ -1,0 +1,1 @@
+rm -rf "/mnt/d/SUBSTRATE/node-0*"

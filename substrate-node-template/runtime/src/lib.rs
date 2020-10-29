@@ -192,12 +192,6 @@ impl frame_system::Trait for Runtime {
 	type SystemWeightInfo = ();
 }
 
-impl pallet_assets::Trait for Runtime {
-	type Event = Event;
-    type Balance = u32;
-    type AssetId = u32;
-}
-
 impl pallet_aura::Trait for Runtime {
 	type AuthorityId = AuraId;
 }
@@ -251,7 +245,7 @@ impl pallet_balances::Trait for Runtime {
 }
 
 parameter_types! {
-	pub const TransactionByteFee: Balance = 1;
+	pub const TransactionByteFee: Balance = 0;
 }
 
 impl pallet_transaction_payment::Trait for Runtime {
@@ -282,7 +276,6 @@ construct_runtime!(
 		System: frame_system::{Module, Call, Config, Storage, Event<T>},
 		RandomnessCollectiveFlip: pallet_randomness_collective_flip::{Module, Call, Storage},
 		Timestamp: pallet_timestamp::{Module, Call, Storage, Inherent},
-        Assets: pallet_assets::{Module, Call, Storage, Event<T>},
 		Aura: pallet_aura::{Module, Config<T>, Inherent},
 		Grandpa: pallet_grandpa::{Module, Call, Storage, Config, Event},
 		Balances: pallet_balances::{Module, Call, Storage, Config<T>, Event<T>},

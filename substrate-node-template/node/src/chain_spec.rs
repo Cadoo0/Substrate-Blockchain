@@ -51,16 +51,14 @@ pub fn development_config() -> Result<ChainSpec, String> {
 			wasm_binary,
 			// Initial PoA authorities
 			vec![
-				authority_keys_from_seed("Alice"),
+				authority_keys_from_seed("Ricardo"),
 			],
 			// Sudo account
-			get_account_id_from_seed::<sr25519::Public>("Alice"),
+			get_account_id_from_seed::<sr25519::Public>("Ricardo"),
 			// Pre-funded accounts
 			vec![
-				get_account_id_from_seed::<sr25519::Public>("Alice"),
-				get_account_id_from_seed::<sr25519::Public>("Bob"),
-				get_account_id_from_seed::<sr25519::Public>("Alice//stash"),
-				get_account_id_from_seed::<sr25519::Public>("Bob//stash"),
+				get_account_id_from_seed::<sr25519::Public>("Ricardo"),
+				get_account_id_from_seed::<sr25519::Public>("Ayman"),
 			],
 			true,
 		),
@@ -90,25 +88,15 @@ pub fn local_testnet_config() -> Result<ChainSpec, String> {
 			wasm_binary,
 			// Initial PoA authorities
 			vec![
-				authority_keys_from_seed("Alice"),
-				authority_keys_from_seed("Bob"),
+				authority_keys_from_seed("Ricardo"),
+				authority_keys_from_seed("Ayman"),
 			],
 			// Sudo account
-			get_account_id_from_seed::<sr25519::Public>("Alice"),
+			get_account_id_from_seed::<sr25519::Public>("Ricardo"),
 			// Pre-funded accounts
 			vec![
-				get_account_id_from_seed::<sr25519::Public>("Alice"),
-				get_account_id_from_seed::<sr25519::Public>("Bob"),
-				get_account_id_from_seed::<sr25519::Public>("Charlie"),
-				get_account_id_from_seed::<sr25519::Public>("Dave"),
-				get_account_id_from_seed::<sr25519::Public>("Eve"),
-				get_account_id_from_seed::<sr25519::Public>("Ferdie"),
-				get_account_id_from_seed::<sr25519::Public>("Alice//stash"),
-				get_account_id_from_seed::<sr25519::Public>("Bob//stash"),
-				get_account_id_from_seed::<sr25519::Public>("Charlie//stash"),
-				get_account_id_from_seed::<sr25519::Public>("Dave//stash"),
-				get_account_id_from_seed::<sr25519::Public>("Eve//stash"),
-				get_account_id_from_seed::<sr25519::Public>("Ferdie//stash"),
+				get_account_id_from_seed::<sr25519::Public>("Ricardo"),
+				get_account_id_from_seed::<sr25519::Public>("Ayman"),
 			],
 			true,
 		),

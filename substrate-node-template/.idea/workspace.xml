@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../http-client/add_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/add_library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/claim_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/get_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/get_library.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/cleanup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/node-2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/custom-types.json" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/custom-types.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/listen_for_event.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/chain_spec.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pallets/template/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/pallets/template/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/src/lib.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="v81urf01" />
+  </component>
+  <component name="ProjectId" id="1jMwgsJnkn5JXJPYTPnILvhBXOo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/helpers" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
+      <recent name="D:\SUBSTRATE\substrate-node-template" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="" />
+      <created>1603627385434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603627385434</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1603898593714">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1060" y="455" key="FileChooserDialogImpl/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1603898593714" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603655128823">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1603655128823" />
+    <state x="662" y="301" key="new project wizard" timestamp="1603643433825">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="301" key="new project wizard/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1603643433825" />
+    <state x="943" y="315" key="search.everywhere.popup" timestamp="1603908255016">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1603908255016" />
+  </component>
+</project>

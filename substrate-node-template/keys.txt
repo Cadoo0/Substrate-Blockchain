@@ -1,0 +1,29 @@
+ricardo@DESKTOP-P4SAVLM:/mnt/d/SUBSTRATE/http-client$ subkey generate --scheme sr25519
+Secret phrase `swift clown ride welcome cattle sunset cactus cinnamon talent april rose fever` is account:
+  Secret seed:      0x5638af02c706a0986e57cfefb72486196e3a9e56915be82051c0bf0fdf513b91
+  Public key (hex): 0xfa86a0aae4d19beb805b4875834ba23a89b2ec2e1afaf0da7a0b0d6320e2cd5b
+  Account ID:       0xfa86a0aae4d19beb805b4875834ba23a89b2ec2e1afaf0da7a0b0d6320e2cd5b
+  SS58 Address:     5HjBpaQ69eKihnAgU6ficGxqP1ULauPG3KCPoCsXREMfNVu3
+
+ricardo@DESKTOP-P4SAVLM:/mnt/d/SUBSTRATE/http-client$ subkey inspect --scheme ed25519 "swift clown ride welcome cattle sunset cactus cinnamon talent april rose fever"
+Secret phrase `swift clown ride welcome cattle sunset cactus cinnamon talent april rose fever` is account:
+  Secret seed:      0x5638af02c706a0986e57cfefb72486196e3a9e56915be82051c0bf0fdf513b91
+  Public key (hex): 0xa26aa99bd34d0cecdeeac72781343ea6aee4ce7f515810fed95024a1d0860392
+  Account ID:       0xa26aa99bd34d0cecdeeac72781343ea6aee4ce7f515810fed95024a1d0860392
+  SS58 Address:     5FjfJM2a9kQxP2gDxQJer3zXQMBaNJe2WyhRjmunYoa4aPef
+
+
+
+ricardo@DESKTOP-P4SAVLM:/mnt/d/SUBSTRATE/http-client$ subkey generate --scheme sr25519
+Secret phrase `cattle gift horror moment desert agent slice real gold arctic mistake business` is account:
+  Secret seed:      0x1e9eb0cc9ea306c9f84bc3d00eb195bfdb89440f5851e99cc02b46256c583d70
+  Public key (hex): 0xa61adb6469b236bc624ed982833e32c0d520fd337eba861b4b763c909c1a580b
+  Account ID:       0xa61adb6469b236bc624ed982833e32c0d520fd337eba861b4b763c909c1a580b
+  SS58 Address:     5FpVnSMpdEZp4RwTdPwEUXcCQCjTWPc15HKcp5DDwwtrv3Sx
+
+ricardo@DESKTOP-P4SAVLM:/mnt/d/SUBSTRATE/http-client$ subkey inspect --scheme ed25519 "cattle gift horror moment desert agent slice real gold arctic mistake business"
+Secret phrase `cattle gift horror moment desert agent slice real gold arctic mistake business` is account:
+  Secret seed:      0x1e9eb0cc9ea306c9f84bc3d00eb195bfdb89440f5851e99cc02b46256c583d70
+  Public key (hex): 0xa651934cfc6929b708d7e103898a8f10ed93b7461d8a551bd633283d39e7fbd8
+  Account ID:       0xa651934cfc6929b708d7e103898a8f10ed93b7461d8a551bd633283d39e7fbd8
+  SS58 Address:     5Fpn3DN8ghP4xtZUr4TsMR4uLn7JCYdfEsbEuSUqJzCeZnqH
