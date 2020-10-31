@@ -27,10 +27,11 @@ pub struct Book {
 }
 
 #[derive(Encode, Decode, Default, Clone, PartialEq, Eq)]
-pub struct Transaction {
+pub struct BookTransaction {
     pub from: u8,
     pub to: u8,
-    pub book: u8
+    pub book: u8,
+    pub transporter: u8,
 }
 
 pub trait Trait: frame_system::Trait {
@@ -39,10 +40,10 @@ pub trait Trait: frame_system::Trait {
 
 decl_storage! {
 	trait Store for Module<T: Trait> as TemplateModule {
-        LastTransactionId: u8 = 1;
+        LastTransactionId get(fn last_transaction_id): u8 = 1;
 		Libraries get(fn library): map hasher(blake2_128_concat) u8 => Option<Library>;
 		Books get(fn book): map hasher(blake2_128_concat) u8 => Option<Book>;
-		Transactions get(fn transaction): map hasher(blake2_128_concat) u8 => Option<Transaction>;
+		BookTransactions get(fn transaction): map hasher(blake2_128_concat) u8 => Option<BookTransaction>;
 	}
 }
 
@@ -100,22 +101,23 @@ decl_module! {
 		}
 
 		#[weight = 10_000 + T::DbWeight::get().writes(1)]
-		pub fn add_transaction(origin, from: u8, to: u8, book_id: u8) -> dispatch::DispatchResult {
+		pub fn add_book_transaction(origin, from: u8, to: u8, book_id: u8, transporter_id: u8) -> dispatch::DispatchResult {
             let sender = ensure_signed(origin)?;
 
-            let transaction = Transaction {
+            let transaction = BookTransaction {
                 from,
                 to,
-                book: book_id
+                book: book_id,
+                transporter: transporter_id
             };
 
             let last_id = <LastTransactionId>::get();
 
-            <Transactions>::insert(last_id, transaction);
+            <BookTransactions>::insert(last_id, transaction);
 
             Self::deposit_event(RawEvent::TransactionAdded(sender, last_id));
 
-            LastTransactionId::put(last_id + 1);
+            <LastTransactionId>::put(last_id + 1);
 
 			Ok(())
 		}

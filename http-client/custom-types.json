@@ -17,6 +17,15 @@
         ["name", "Vec<u8>"],
         ["owner", "Option<Library>"]
       ]
+    },
+    "BookTransaction": {
+      "type": "struct",
+      "type_mapping": [
+        ["from", "u8"],
+        ["to", "u8"],
+        ["book", "u8"],
+        ["transporter", "u8"]
+      ]
     }
   }
 }

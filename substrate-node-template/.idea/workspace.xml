@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../http-client/add_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http-client/add_library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http-client/claim_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http-client/get_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http-client/get_library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/cleanup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/node-2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keys.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/clients/ayman/mnemonic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/clients/ricardo/mnemonic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../http-client/substrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/add_book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/add_library.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/add_transaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/claim_book.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../http-client/custom-types.json" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/custom-types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/listen_for_event.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/chain_spec.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/get_book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/get_library.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/listen_for_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpecRaw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/cleanup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pallets/template/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/pallets/template/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +42,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/helpers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backups" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SUBSTRATE\substrate-node-template\backups" />
       <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
       <recent name="D:\SUBSTRATE\substrate-node-template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,9 +79,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="662" y="301" key="new project wizard/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1603643433825" />
-    <state x="943" y="315" key="search.everywhere.popup" timestamp="1603908255016">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604167057398">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1603908255016" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604167057398" />
   </component>
 </project>

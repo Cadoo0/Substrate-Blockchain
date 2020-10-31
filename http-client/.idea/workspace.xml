@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c876b0df-7893-4a95-9264-134d2583c1ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/add_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add_library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/claim_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_library.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-2.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/setup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../substrate-node-template/keys.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/ayman/mnemonic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/ricardo/mnemonic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/substrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_library.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_transaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/claim_book.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-types.json" beforeDir="false" afterPath="$PROJECT_DIR$/custom-types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/listen_for_event.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/src/chain_spec.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_library.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/listen_for_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/customSpec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/customSpecRaw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/pallets/template/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/pallets/template/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/runtime/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/runtime/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,8 @@
       <workItem from="1603309411806" duration="2957000" />
       <workItem from="1603627404938" duration="6190000" />
       <workItem from="1603910821825" duration="602000" />
-      <workItem from="1603978054403" duration="3695000" />
+      <workItem from="1603978054403" duration="4289000" />
+      <workItem from="1604165848144" duration="5205000" />
     </task>
     <servers />
   </component>
@@ -87,9 +89,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603647294563">
+    <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604168784230">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604168784230" />
     <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1603647294563" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604168706486">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604168706486" />
   </component>
 </project>
