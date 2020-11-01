@@ -15,7 +15,7 @@ mod tests;
 pub struct Library {
     pub id: u8,
     pub name: Vec<u8>,
-    pub books: Vec<Book>
+    pub books: Vec<u8>
 }
 
 #[derive(Encode, Decode, Default, Clone, PartialEq, Eq)]
@@ -23,7 +23,7 @@ pub struct Book {
     pub id: u8,
     pub isbn: Vec<u8>,
     pub name: Vec<u8>,
-    pub owner: Option<Library>
+    pub owner: Option<u8>
 }
 
 #[derive(Encode, Decode, Default, Clone, PartialEq, Eq)]
@@ -130,17 +130,17 @@ decl_module! {
             ensure!(<Libraries>::contains_key(&library_id), "Deze bibliotheek bestaat niet");
             ensure!(<Books>::get(book_id).unwrap().owner == None, "Deze boek heeft al een eigenaar");
 
-            // <Books>::mutate(book_id.clone(), |editable_book| {
-            //     let library = <Libraries>::get(library_id).unwrap();
-            //
-            //     editable_book.unwrap().owner = Some(library.clone());
-            // });
+            let mut book = <Books>::get(book_id).unwrap();
+            let mut library = <Libraries>::get(library_id).unwrap();
 
-            // <Libraries>::mutate(library_id.clone(), |editable_library| {
-            //     let book = <Books>::get(book_id).unwrap();
-            //
-            //     editable_library.unwrap().books.push(book.clone());
-            // });
+            book.owner = Some(library_id);
+            library.books.push(book_id);
+
+            <Books>::remove(book_id.clone());
+            <Libraries>::remove(library_id.clone());
+
+            <Books>::insert(book_id.clone(), book.clone());
+            <Libraries>::insert(library_id.clone(), library.clone());
 
             // Self::deposit_event(RawEvent::BookAdded(sender, id));
 

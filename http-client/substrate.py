@@ -33,6 +33,28 @@ def cli():
 
 @click.command()
 @click.option('--user', help='The user making the request', prompt='User')
+@click.option('--book', help='The book in question', prompt='Book')
+@click.option('--library', help='The library in question', prompt='Library')
+def claim_book(user, book, library):
+    keypair = get_keypair(user)
+    call = substrate.compose_call(
+        call_module='TemplateModule',
+        call_function='claim_book',
+        call_params={
+            'book_id': book,
+            'library_id': library,
+        }
+    )
+    extrinsic = substrate.create_signed_extrinsic(call=call, keypair=keypair)
+    try:
+        substrate.submit_extrinsic(extrinsic, wait_for_inclusion=True)
+        print("Boek geclaimd toegevoegd")
+    except SubstrateRequestException as e:
+        print("Error: {}".format(e))
+
+
+@click.command()
+@click.option('--user', help='The user making the request', prompt='User')
 @click.option('--from', 'sender', help='The library sending the book', prompt='From')
 @click.option('--to', help='The library receiving the book', prompt='To')
 @click.option('--book', help='The book in question', prompt='Book')
@@ -55,6 +77,18 @@ def add_book_transaction(user, sender, to, book, transporter):
         print("Boek transactie toegevoegd")
     except SubstrateRequestException as e:
         print("Error: {}".format(e))
+
+
+@click.command()
+@click.option('--id', help='The id of the transaction you want to retrieve', prompt='Id')
+def get_book_transaction(id):
+    book_transaction_info = substrate.get_runtime_state(
+        module='TemplateModule',
+        storage_function='BookTransactions',
+        params=[id]
+    ).get('result')
+
+    click.echo(json.dumps(book_transaction_info, indent=4))
 
 
 @click.command()
@@ -114,7 +148,7 @@ def get_book(id):
         params=[id]
     ).get('result')
 
-    click.echo(json.dumps(book_info, indent=4, sort_keys=True))
+    click.echo(json.dumps(book_info, indent=4))
 
 
 @click.command()
@@ -126,19 +160,22 @@ def get_library(id):
         params=[id]
     ).get('result')
 
-    click.echo(json.dumps(library_info, indent=4, sort_keys=True))
+    click.echo(json.dumps(library_info, indent=4))
 
 
 @click.command()
 def get_metadata():
-    click.echo(json.dumps(substrate.get_metadata_storage_functions(), indent=4, sort_keys=True))
+    click.echo(json.dumps(substrate.get_metadata_storage_functions(), indent=4))
 
 
+cli.add_command(claim_book)
 cli.add_command(add_book_transaction)
+cli.add_command(get_book_transaction)
 cli.add_command(add_book)
 cli.add_command(add_library)
 cli.add_command(get_book)
 cli.add_command(get_library)
+cli.add_command(get_metadata)
 
 
 if __name__ == '__main__':

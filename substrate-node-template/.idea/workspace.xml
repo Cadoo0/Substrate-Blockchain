@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../http-client/clients/ayman/mnemonic.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http-client/clients/ricardo/mnemonic.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http-client/substrate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/add_book.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/add_library.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/add_transaction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/claim_book.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../http-client/custom-types.json" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/custom-types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/get_book.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/get_library.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/listen_for_event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/helpers/listen_for_event.py" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/helpers/listen_for_event.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/substrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/substrate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpecRaw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/cleanup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pallets/template/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/pallets/template/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

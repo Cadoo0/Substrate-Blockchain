@@ -8,7 +8,7 @@ import time
 
 
 def on_message(ws, message):
-    print(message)
+    print(json.dumps(json.loads(message), indent=4))
 
 
 def on_error(ws, error):
@@ -16,48 +16,18 @@ def on_error(ws, error):
 
 
 def on_close(ws):
-    print("### closed ###")
+    print('Connection closed')
 
 
 def on_open(ws):
     def run(*args):
-        # ws.send(json.dumps({
-        #     'id': 1,
-        #     'jsonrpc': '2.0',
-        #     'method': 'chain_getBlockHash',
-        #     'params': [
-        #         0
-        #     ]
-        # }))
-        # ws.send(json.dumps({
-        #     'id': 1,
-        #     'jsonrpc': '2.0',
-        #     'method': 'state_getRuntimeVersion',
-        #     'params': []
-        # }))
-        # ws.send(json.dumps({
-        #     'id': 1,
-        #     'jsonrpc': '2.0',
-        #     'method': 'system_chain',
-        #     'params': []
-        # }))
-        # ws.send(json.dumps({
-        #     'id': 1,
-        #     'jsonrpc': '2.0',
-        #     'method': 'system_properties',
-        #     'params': []
-        # }))
-        # ws.send(json.dumps({
-        #     'id': 1,
-        #     'jsonrpc': '2.0',
-        #     'method': 'state_subscribeRuntimeVersion',
-        #     'params': []
-        # }))
         ws.send(json.dumps({
             'id': 1,
             'jsonrpc': '2.0',
-            'method': 'rpc_methods',
-            'params': []
+            'method': 'state_subscribeStorage',
+            'params': [
+                ['0x26aa394eea5630e07c48ae0c9558cef780d41e5e16056765bc8461851072c9d7']
+            ]
         }))
     thread.start_new_thread(run, ())
 

@@ -6,7 +6,7 @@
       "type_mapping": [
         ["id", "u8"],
         ["name", "Vec<u8>"],
-        ["books", "Vec<Book>"]
+        ["books", "Vec<u8>"]
       ]
     },
     "Book": {
@@ -15,7 +15,7 @@
         ["id", "u8"],
         ["isbn", "Vec<u8>"],
         ["name", "Vec<u8>"],
-        ["owner", "Option<Library>"]
+        ["owner", "Option<u8>"]
       ]
     },
     "BookTransaction": {
