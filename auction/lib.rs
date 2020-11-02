@@ -26,6 +26,11 @@ mod auction {
             Self { book_id, bids: Vec::new() }
         }
 
+        #[ink(message)]
+        pub fn get_book_id(&self) -> u8 {
+            self.book_id
+        }
+
         // #[ink(message)]
         // pub fn get_bid_history(&self) -> Vec<(AccountId, u8)> {
         //     self.bids

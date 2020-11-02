@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72cf6090-9675-4371-8557-1b157f1f17bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-3.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/customSpec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/customSpecRaw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/customSpecRaw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/node-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-1.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/node-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-2.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/src/chain_spec.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/src/rpc.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/src/rpc.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/runtime/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../substrate-node-template/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/runtime/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
