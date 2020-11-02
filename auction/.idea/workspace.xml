@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c876b0df-7893-4a95-9264-134d2583c1ba" name="Default Changelist" comment="">
+    <list default="true" id="72cf6090-9675-4371-8557-1b157f1f17bd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-3.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/customSpec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/customSpecRaw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/cleanup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/customSpecRaw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/node-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../substrate-node-template/helpers/node-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/helpers/node-2.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/src/chain_spec.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../substrate-node-template/node/src/rpc.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../substrate-node-template/node/src/rpc.rs" afterDir="false" />
@@ -20,11 +23,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="9b0d524a-2956-46da-a8ea-2fc0168bf31b" />
-  <component name="ProjectId" id="1jCYCARoI3Aa9DmJCDPn1w36Yld" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="1ruj8fb3" />
+  </component>
+  <component name="ProjectId" id="1jkEVv8jBsLdRDvJaK15jEHGp1u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,68 +40,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SUBSTRATE\http-client" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="add_book" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="http-client" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\SUBSTRATE\http-client\add_book.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../substrate-node-template" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c876b0df-7893-4a95-9264-134d2583c1ba" name="Default Changelist" comment="" />
-      <created>1603309410375</created>
+      <changelist id="72cf6090-9675-4371-8557-1b157f1f17bd" name="Default Changelist" comment="" />
+      <created>1604339729250</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603309410375</updated>
-      <workItem from="1603309411806" duration="2957000" />
-      <workItem from="1603627404938" duration="6190000" />
-      <workItem from="1603910821825" duration="602000" />
-      <workItem from="1603978054403" duration="4289000" />
-      <workItem from="1604165848144" duration="6472000" />
-      <workItem from="1604226793327" duration="11349000" />
-      <workItem from="1604339282368" duration="1759000" />
+      <updated>1604339729250</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604168784230">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1604341406679">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604168784230" />
-    <state x="1029" y="490" key="#com.intellij.fileTypes.FileTypeChooser/2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1603647294563" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1604168706486">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604168706486" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604341406679" />
   </component>
 </project>

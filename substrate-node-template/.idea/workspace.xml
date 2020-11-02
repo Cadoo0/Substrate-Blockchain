@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/helpers/node-3.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/custom-types.json" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/custom-types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/helpers/listen_for_event.py" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/helpers/listen_for_event.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/substrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/substrate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pallets/template/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/pallets/template/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpecRaw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/cleanup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/customSpecRaw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/node-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-1.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/node-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/node/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/chain_spec.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/rpc.rs" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/rpc.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +40,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backups" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SUBSTRATE\substrate-node-template\backups" />
-      <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
-      <recent name="D:\SUBSTRATE\substrate-node-template" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SUBSTRATE\substrate-node-template\helpers" />
+      <recent name="D:\SUBSTRATE\substrate-node-template\backups" />
+      <recent name="D:\SUBSTRATE\substrate-node-template" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,10 +65,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1603898593714">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1604340253994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1060" y="455" key="FileChooserDialogImpl/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1603898593714" />
+    <state x="1060" y="455" key="FileChooserDialogImpl/2560.0.2560.1400/0.0.2560.1400/5120.0.1920.1040@0.0.2560.1400" timestamp="1604340253994" />
     <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603655128823">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

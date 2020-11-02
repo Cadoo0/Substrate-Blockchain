@@ -1,1 +1,1 @@
-rm -rf /mnt/d/SUBSTRATE/node-0*
+rm -rf $(pwd)/../../node-0*
