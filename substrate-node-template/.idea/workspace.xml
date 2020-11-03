@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helpers/node-3.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../auction/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customSpec.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customSpecRaw.json" beforeDir="false" afterPath="$PROJECT_DIR$/customSpecRaw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/cleanup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/cleanup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/customSpecRaw.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/node-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-1.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/node-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-2.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/node/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/chain_spec.rs" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/chain_spec.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/rpc.rs" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/rpc.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/node-3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-3.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
