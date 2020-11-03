@@ -1,4 +1,4 @@
-curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d '{
+curl http://thuis.ricardokamerman.com:9933 -H "Content-Type:application/json;charset=utf-8" -d '{
   "jsonrpc":"2.0",
   "id":1,
   "method":"author_insertKey",
@@ -8,7 +8,7 @@ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d '
     "0xfa86a0aae4d19beb805b4875834ba23a89b2ec2e1afaf0da7a0b0d6320e2cd5b"
   ]
 }'
-curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d '{
+curl http://thuis.ricardokamerman.com:9933 -H "Content-Type:application/json;charset=utf-8" -d '{
   "jsonrpc":"2.0",
   "id":1,
   "method":"author_insertKey",
@@ -18,7 +18,7 @@ curl http://127.0.0.1:9933 -H "Content-Type:application/json;charset=utf-8" -d '
     "0xa26aa99bd34d0cecdeeac72781343ea6aee4ce7f515810fed95024a1d0860392"
   ]
 }'
-curl http://127.0.0.1:9934 -H "Content-Type:application/json;charset=utf-8" -d '{
+curl http://kantoor.ricardokamerman.com:9934 -H "Content-Type:application/json;charset=utf-8" -d '{
   "jsonrpc":"2.0",
   "id":1,
   "method":"author_insertKey",
@@ -28,7 +28,7 @@ curl http://127.0.0.1:9934 -H "Content-Type:application/json;charset=utf-8" -d '
     "0xa61adb6469b236bc624ed982833e32c0d520fd337eba861b4b763c909c1a580b"
   ]
 }'
-curl http://127.0.0.1:9934 -H "Content-Type:application/json;charset=utf-8" -d '{
+curl http://kantoor.ricardokamerman.com:9934 -H "Content-Type:application/json;charset=utf-8" -d '{
   "jsonrpc":"2.0",
   "id":1,
   "method":"author_insertKey",

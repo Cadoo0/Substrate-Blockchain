@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e753e441-5f92-42a0-99df-a51d385733f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http-client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/node-1.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-1.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/node-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-2.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helpers/node-3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/node-3.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/setup.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

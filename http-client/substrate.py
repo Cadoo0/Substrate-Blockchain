@@ -7,7 +7,7 @@ import json
 custom_type_registry = load_type_registry_file('custom-types.json')
 
 substrate = SubstrateInterface(
-    url="ws://127.0.0.1:9944",
+    url="ws://thuis.ricardokamerman.com:9944",
     address_type=42,
     type_registry_preset='substrate-node-template',
     type_registry=custom_type_registry

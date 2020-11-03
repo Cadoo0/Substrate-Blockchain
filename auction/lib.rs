@@ -16,14 +16,27 @@ mod auction {
 
     #[ink(storage)]
     pub struct Auction {
+        pub from: u8,
+        pub to: u8,
         pub book_id: u8,
+        pub end_timestamp: u32,
         pub bids: Vec<(AccountId, u8)>,
     }
 
     impl Auction {
         #[ink(constructor)]
-        pub fn new(book_id: u8) -> Self {
-            Self { book_id, bids: Vec::new() }
+        pub fn new(from: u8, to: u8, book_id: u8, end_timestamp: u32) -> Self {
+            Self { from, to, book_id, end_timestamp, bids: Vec::new() }
+        }
+
+        #[ink(message)]
+        pub fn get_from(&self) -> u8 {
+            self.from
+        }
+
+        #[ink(message)]
+        pub fn get_to(&self) -> u8 {
+            self.to
         }
 
         #[ink(message)]
@@ -31,10 +44,24 @@ mod auction {
             self.book_id
         }
 
+        #[ink(message)]
+        pub fn get_end_timestamp(&self) -> u32 {
+            self.end_timestamp
+        }
+
         // #[ink(message)]
         // pub fn get_bid_history(&self) -> Vec<(AccountId, u8)> {
         //     self.bids
         // }
+
+        #[ink(message)]
+        pub fn get_nth_bid(&self, index: u32) -> Option<(AccountId, u8)> {
+            if self.bids.len() <= (index + 1) {
+                return Some(self.bids[index])
+            }
+
+            None
+        }
 
         #[ink(message)]
         pub fn get_latest_bid(&self) -> Option<(AccountId, u8)> {
